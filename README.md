@@ -43,7 +43,7 @@ var webRootPath="<%=request.getContextPath()%>";
 4.初始化表格数据：
 
  ``` xml
-    <table id="myid">
+    <table id="bookTable">
 	 <thead>
 			<tr>
 				<th type="number">...
