@@ -19,8 +19,7 @@
 ```
 2.在配置文件web.xml中配置servlet用于导出文件:
     ``` xml
-     		<!--文件导出开始 -->
-
+ 
 	<servlet>
 		<servlet-name>ReportServer</servlet-name>
 		<servlet-class>
@@ -31,8 +30,7 @@
 		<servlet-name>ReportServer</servlet-name>
 		<url-pattern>/ReportServer</url-pattern>
 	</servlet-mapping>
-
-	<!--文件导出结束 -->
+ 
 ```
 3.建立jsp并引入jquery和export.js
  ``` xml
