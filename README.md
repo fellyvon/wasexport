@@ -3,7 +3,7 @@
 >目前仅支持表格形式矩阵数据导出
  
 本项目主要包含两个模块，wasreport和wareport-client:
-1.wasreport模块是本项目的核心，用于实现JDBC的操作。
+1.wasreport模块是本项目的核心，用于实现导出。
 2.wareport-client模块是wasreport使用的一个实现，包括一个web版本简单实例，可以部署到容器中运行。
 
 
