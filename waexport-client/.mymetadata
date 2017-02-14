@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="waexport-client"
+  id="myeclipse.1487031138216"
+  context-root="/web"
+  j2ee-spec="5.0"
+  archive="waexport-client.war">
+  <attributes>
+    <attribute name="webrootdir" value="web" />
+  </attributes>
+</project-module>
+
