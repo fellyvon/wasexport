@@ -17,7 +17,11 @@ import com.waspring.waexport.exp.NodeException;
 import com.waspring.waexport.node.ExcelNode;
 import com.waspring.waexport.util.EscapeUtil;
 import com.waspring.waexport.util.NodeUtil;
-
+/**
+ * 导出后台服务
+ * @author felly
+ *
+ */
 public class ReportServlet extends HttpServlet {
 	/* long serialVersionUID */
 	private static final long serialVersionUID = 7969131818891585800L;
