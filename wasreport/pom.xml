@@ -6,7 +6,7 @@
 	<version>1.0.0</version>
 	<name>wasexport</name>
 	<description>
-  一款将数据导出为Excel,Doc,Txt,XML,PDF等常用格式的导出组件，简约而极具扩展性，一键完成页面数据多种格式导出。
+  一款将数据导出为Excel,Doc,Txt,XML,PDF等常用格式的导出组件，简约而极具扩展性，一键完成页面表格数据导出。
 	</description>
 	<url>https://www.waspring.com</url>
     <inceptionYear>2017</inceptionYear>
@@ -81,8 +81,8 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>git@github.com:fellyvon/wasdb</url>
-		<connection>git@github.com:fellyvon/wasdb.git</connection>
+		<url>git@github.com:fellyvon/wasexport</url>
+		<connection>git@github.com:fellyvon/wasexport.git</connection>
 		<developerConnection>http://www.waspring.com</developerConnection>
 	</scm>
 	<developers>
