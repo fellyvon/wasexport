@@ -6,7 +6,7 @@
 1.wasreport模块是本项目的核心，用于实现导出。
 2.wareport-client模块是wasreport使用的一个实现，包括一个web版本简单实例，可以部署到容器中运行。
 
-
+github地址：https://github.com/fellyvon/wasexport
 #如何使用?
 1.建立新工程并引入wasreport-1.0.0.jar
    可以使用maven方式引入:
