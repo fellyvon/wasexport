@@ -60,7 +60,7 @@ public class ExcelUtil {
 			cell.setCellType(HSSFCell.CELL_TYPE_STRING);// 指定单元格格式：数值、公式或字符串
 			index++;
 		}
-
+        
 		it = data.iterator();
 
 		index = 1;
