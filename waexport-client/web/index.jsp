@@ -114,7 +114,7 @@ var webRootPath="<%=request.getContextPath()%>";
 	<input type='button' id='txtexport' value='导出txt' />
 	<input type='button' id='xmlexport' value='导出xml' />
 	<input type='button' id='pdfexport' value='导出pdf' />
-
+<input type='button' id='htmlexport' value='导出html' />
 </body>
 </html>
 <script>
@@ -133,6 +133,9 @@ var webRootPath="<%=request.getContextPath()%>";
 		});
 		$("#pdfexport").click(function(e) {
 			exportFile("pdf", $("#bookTable"));
+		});
+			$("#htmlexport").click(function(e) {
+			exportFile("html", $("#bookTable"));
 		});
 	});
 </script>

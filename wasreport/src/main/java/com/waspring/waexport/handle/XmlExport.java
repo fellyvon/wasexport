@@ -26,7 +26,6 @@ public class XmlExport extends AbstractExport {
 		Map map = new HashMap(16);
 		map.put(HEADER, header);
 		map.put(DATA, data);
-
 		// /////XmlConverUtil
 		servletOut.write(XmlConverUtil.mapToXML(map).getBytes());
 	}

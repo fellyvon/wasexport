@@ -9,8 +9,8 @@
   一款将数据导出为Excel,Doc,Txt,XML,PDF等常用格式的导出组件，简约而极具扩展性，一键完成页面表格数据导出。
 	</description>
 	<url>https://www.waspring.com</url>
-    <inceptionYear>2017</inceptionYear>
-	
+	<inceptionYear>2017</inceptionYear>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -44,8 +44,29 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.0.2-FINAL</version>
+			<version>3.15</version>
 		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.rendersnake/rendersnake -->
+		<dependency>
+			<groupId>org.rendersnake</groupId>
+			<artifactId>rendersnake</artifactId>
+			<version>1.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>5.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf.tool</groupId>
+			<artifactId>xmlworker</artifactId>
+			<version>5.4.1</version>
+		</dependency>
+
+
+
 		<dependency>
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
@@ -65,14 +86,16 @@
 			<version>2.5</version>
 		</dependency>
 
-	</dependencies>
-    
 
-   <organization>
-        <name>waspring</name>
-        <url>http://www.waspring.com</url>
-    </organization>
- 
+
+	</dependencies>
+
+
+	<organization>
+		<name>waspring</name>
+		<url>http://www.waspring.com</url>
+	</organization>
+
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
