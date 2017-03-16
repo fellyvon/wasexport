@@ -66,7 +66,7 @@ public class ExcelUtil {
 		index = 1;
 		while (it.hasNext()) {// ///内容
 			List item = (List) it.next();
-			HSSFRow row = sheet.createRow((short) index);// //标题行
+			HSSFRow row = sheet.createRow( index);// //标题行
 
 			Iterator sub = item.iterator();
 			int subIndex = 0;
